@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Skin.Chat snapshots</title>
+  <style>
+    :root { --bg: #ffffff; --text: #1b1f26; --muted: #1b1f26b3; --card: #f4f6fb; --line: #1b1f2614; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #111317; --text: #ecf2fe; --muted: #ecf2fe99; --card: #1b1f26; --line: #ecf2fe1f; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 1100px; margin: 0 auto; padding: 32px 16px 64px; }
+    h1 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
+    h2 { font-size: 20px; line-height: 1.3; margin: 48px 0 8px; }
+    p { color: var(--muted); margin: 0 0 24px; max-width: 60ch; }
+    ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+    a { color: inherit; text-decoration: none; }
+    li a { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; }
+    li img { display: block; width: 100%; aspect-ratio: 390 / 664; object-fit: cover; object-position: top; }
+    li span { display: block; padding: 10px 12px 12px; font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Skin.Chat snapshots</h1>
+  <p>Offline copies of the public skin.chat, captured on a phone-sized screen. Tap a screen to open its live HTML and CSS. Nothing here talks to a server.</p>
+  <ul>
+    <li><a href="screens/01-home.html"><img src="screenshots/01-home.jpg" alt=""><span>1. Home, empty chat</span></a></li>
+    <li><a href="screens/02-question.html"><img src="screenshots/02-question.jpg" alt=""><span>2. Answer with product carousel</span></a></li>
+    <li><a href="screens/03-routine.html"><img src="screenshots/03-routine.jpg" alt=""><span>3. Routine: selfie or quiz</span></a></li>
+    <li><a href="screens/04-bestsellers.html"><img src="screenshots/04-bestsellers.jpg" alt=""><span>4. Bestsellers</span></a></li>
+    <li><a href="screens/05-analyze.html"><img src="screenshots/05-analyze.jpg" alt=""><span>5. Photo capture options</span></a></li>
+    <li><a href="screens/06-portrait.html"><img src="screenshots/06-portrait.jpg" alt=""><span>6. Skin Portrait, empty</span></a></li>
+    <li><a href="screens/07-quiz-01.html"><img src="screenshots/07-quiz-01.jpg" alt=""><span>7. Skin quiz, single choice</span></a></li>
+    <li><a href="screens/07-quiz-04-picked.html"><img src="screenshots/07-quiz-04-picked.jpg" alt=""><span>8. Skin quiz, multi choice</span></a></li>
+    <li><a href="screens/08-routine-result.html"><img src="screenshots/08-routine-result.jpg" alt=""><span>9. Routine result (scroll inside)</span></a></li>
+  </ul>
+  <h2>Skin analysis (AI-generated test face)</h2>
+  <p>Run with a synthetic face, so no real person's photo was used. Scores are real output from skin.chat.</p>
+  <ul>
+    <li><a href="screenshots/10-analysis-preview.jpg"><img src="screenshots/10-analysis-preview.jpg" alt=""><span>10. Photo check before sending</span></a></li>
+    <li><a href="screens/12-results-chat.html"><img src="screenshots/12-results-chat.jpg" alt=""><span>11. Results in chat: type, age, tone</span></a></li>
+    <li><a href="screenshots/12-results-chat-02.jpg"><img src="screenshots/12-results-chat-02.jpg" alt=""><span>12. Strengths and focus areas</span></a></li>
+    <li><a href="screenshots/12-results-chat-03.jpg"><img src="screenshots/12-results-chat-03.jpg" alt=""><span>13. Score cards with face mask</span></a></li>
+    <li><a href="screenshots/12-results-chat-06.jpg"><img src="screenshots/12-results-chat-06.jpg" alt=""><span>14. Summary and next questions</span></a></li>
+    <li><a href="screenshots/13-metric-detail.jpg"><img src="screenshots/13-metric-detail.jpg" alt=""><span>15. Score detail, full screen</span></a></li>
+    <li><a href="screens/16-return-portrait.html"><img src="screenshots/16-return-portrait.jpg" alt=""><span>16. Skin Portrait after analysis</span></a></li>
+  </ul>
+  <h2>Second analysis, same face</h2>
+  <p>A repeat analysis in the same browser, about 10 minutes later. Same photo, same scores. This is what "nothing changed" looks like today.</p>
+  <ul>
+    <li><a href="screens/18-second-results.html"><img src="screenshots/18-second-results.jpg" alt=""><span>17. Second result added below the first</span></a></li>
+    <li><a href="screenshots/18-second-results-end.jpg"><img src="screenshots/18-second-results-end.jpg" alt=""><span>18. Same summary, no mention of the first</span></a></li>
+    <li><a href="screens/19-portrait-two.html"><img src="screenshots/19-portrait-two.jpg" alt=""><span>19. Skin Portrait: two photos side by side</span></a></li>
+    <li><a href="screenshots/20-portrait-card-open.jpg"><img src="screenshots/20-portrait-card-open.jpg" alt=""><span>20. Opening one past analysis</span></a></li>
+  </ul>
+</main>
+</body>
+</html>

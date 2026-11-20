@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622 828" width="622" height="828"><defs>
+        <filter id="deepLinesFilter" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="wideGlow"/>
+            <feColorMatrix in="wideGlow" type="matrix" values="0 0 0 0 1 0 0 0 0 0.92941 0 0 0 0 0.61176 0 0 0 1 0" result="coloredWide"/>
+            <feGaussianBlur in="SourceGraphic" stdDeviation="3" result="tightGlow"/>
+            <feColorMatrix in="tightGlow" type="matrix" values="0 0 0 0 1 0 0 0 0 0.92941 0 0 0 0 0.61176 0 0 0 1 0" result="coloredTight"/>
+            <feMerge>
+                <feMergeNode in="coloredWide"/>
+                <feMergeNode in="coloredTight"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs><g stroke="#ffed9c" stroke-width="2.5" filter="url(#deepLinesFilter)" id="class_1" class="vectorEffectClass polygon-deep_lines" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="M 459.000000 363.000000 L 459.100000 363.000000 M 462.000000 364.000000 L 462.100000 364.000000 M 465.000000 366.000000 L 466.000000 366.000000 M 469.000000 367.000000 L 469.100000 367.000000 M 471.000000 368.000000 L 471.100000 368.000000 M 473.000000 369.000000 L 474.000000 369.000000 M 476.000000 370.000000 L 476.100000 370.000000" fill-rule="nonzero"/></g></svg>

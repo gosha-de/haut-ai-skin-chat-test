@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 622 828" width="622" height="828" shape-rendering="crispEdges"><defs>
+        <filter id="freckles" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset/>
+            <feGaussianBlur stdDeviation="5"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.929412 0 0 0 0 0.611765 0 0 0 1 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset/>
+            <feGaussianBlur stdDeviation="3"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.929412 0 0 0 0 0.611765 0 0 0 1 0"/>
+            <feBlend mode="normal" in2="effect1_dropShadow_0_1" result="effect2_dropShadow_0_1"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset/>
+            <feGaussianBlur stdDeviation="1"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+            <feBlend mode="normal" in2="effect2_dropShadow_0_1" result="effect3_dropShadow_0_1"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect3_dropShadow_0_1" result="shape"/>
+        </filter>
+    </defs><g stroke="none" stroke-width="0" filter="url(#freckles)" id="class_1" class="vectorEffectClass polygon-pigmentation" fill-opacity="0.8" fill="#FFED9C" stroke-linejoin="round" stroke-linecap="round" shape-rendering="crispEdges"><path d="M 70.000000 412.000000 L 77.000000 412.000000 L 77.000000 414.000000 L 70.000000 414.000000 Z  M 68.000000 414.000000 L 78.000000 414.000000 L 78.000000 416.000000 L 68.000000 416.000000 Z  M 67.000000 416.000000 L 79.000000 416.000000 L 79.000000 417.000000 L 67.000000 417.000000 Z  M 67.000000 417.000000 L 80.000000 417.000000 L 80.000000 420.000000 L 67.000000 420.000000 Z  M 67.000000 420.000000 L 81.000000 420.000000 L 81.000000 425.000000 L 67.000000 425.000000 Z  M 68.000000 425.000000 L 80.000000 425.000000 L 80.000000 427.000000 L 68.000000 427.000000 Z  M 69.000000 427.000000 L 79.000000 427.000000 L 79.000000 429.000000 L 69.000000 429.000000 Z  M 72.000000 429.000000 L 78.000000 429.000000 L 78.000000 430.000000 L 72.000000 430.000000 Z  M 103.000000 506.000000 L 104.000000 506.000000 L 104.000000 508.000000 L 103.000000 508.000000 Z  M 98.000000 508.000000 L 106.000000 508.000000 L 106.000000 511.000000 L 98.000000 511.000000 Z  M 98.000000 511.000000 L 107.000000 511.000000 L 107.000000 513.000000 L 98.000000 513.000000 Z  M 97.000000 513.000000 L 107.000000 513.000000 L 107.000000 516.000000 L 97.000000 516.000000 Z  M 98.000000 516.000000 L 107.000000 516.000000 L 107.000000 521.000000 L 98.000000 521.000000 Z  M 98.000000 521.000000 L 106.000000 521.000000 L 106.000000 522.000000 L 98.000000 522.000000 Z  M 101.000000 522.000000 L 106.000000 522.000000 L 106.000000 524.000000 L 101.000000 524.000000 Z  M 101.000000 548.000000 L 106.000000 548.000000 L 106.000000 549.000000 L 101.000000 549.000000 Z  M 100.000000 549.000000 L 106.000000 549.000000 L 106.000000 550.000000 L 100.000000 550.000000 Z  M 100.000000 550.000000 L 107.000000 550.000000 L 107.000000 558.000000 L 100.000000 558.000000 Z  M 100.000000 558.000000 L 106.000000 558.000000 L 106.000000 559.000000 L 100.000000 559.000000 Z  M 100.000000 559.000000 L 105.000000 559.000000 L 105.000000 560.000000 L 100.000000 560.000000 Z  M 106.000000 584.000000 L 114.000000 584.000000 L 114.000000 585.000000 L 106.000000 585.000000 Z  M 104.000000 585.000000 L 115.000000 585.000000 L 115.000000 592.000000 L 104.000000 592.000000 Z  M 106.000000 592.000000 L 115.000000 592.000000 L 115.000000 594.000000 L 106.000000 594.000000 Z  M 107.000000 594.000000 L 114.000000 594.000000 L 114.000000 595.000000 L 107.000000 595.000000 Z  M 109.000000 595.000000 L 111.000000 595.000000 L 111.000000 597.000000 L 109.000000 597.000000 Z " fill-rule="nonzero"/></g></svg>

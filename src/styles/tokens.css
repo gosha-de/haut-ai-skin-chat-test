@@ -1,0 +1,161 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/inter.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200 1000;
+  font-display: swap;
+  src: url('/fonts/nunito.woff2') format('woff2');
+}
+
+:root {
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', 'Noto Sans', Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --default-font-family: var(--font-sans);
+  --default-mono-font-family: var(--font-mono);
+
+  --background-color: 255 255 255;
+  --color: 27 31 38;
+  --color-brand: 1 1 1;
+  --color-black: 0 0 0;
+  --color-white: 255 255 255;
+  --color-dark: 27 31 38;
+  --color-light: 236 242 254;
+  --color-red: 243 86 96;
+  --color-green: 62 205 111;
+  --color-orange: 243 105 12;
+  --color-gray-200: oklch(92.8% 0.006 264.531);
+  --color-gray-500: oklch(55.1% 0.027 264.364);
+  --color-gray-700: oklch(37.3% 0.034 259.733);
+
+  --color-primary: var(--color-brand, 1 1 1);
+  --color-danger: var(--color-red);
+  --color-success: var(--color-green);
+  --color-border-secondary: var(--color-dark) / 15%;
+  --color-border-secondary-invert: var(--color-light) / 20%;
+  --color-border-tertiary: var(--color-dark) / 8%;
+  --color-text-primary: var(--color-dark);
+  --color-text-primary-invert: var(--color-white);
+  --color-text-secondary: var(--color-dark) / 70%;
+  --color-text-secondary-invert: var(--color-light) / 60%;
+  --color-text-tertiary: var(--color-dark) / 40%;
+
+  --text-xs: 0.75rem;
+  --text-xs--line-height: 1rem;
+  --text-sm: 0.875rem;
+  --text-sm--line-height: 1.25rem;
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+  --text-xl: 1.25rem;
+  --text-xl--line-height: 1.75rem;
+  --text-2xl: 1.5rem;
+  --text-2xl--line-height: 2rem;
+
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  --tracking-wide: 0.025em;
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+
+  --spacing: 0.25rem;
+
+  --container-xs: 20rem;
+  --container-sm: 24rem;
+  --container-md: 28rem;
+  --container-2xl: 42rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+  --radius-2xl: 1rem;
+  --radius-3xl: 1.5rem;
+
+  --blur-sm: 8px;
+  --blur-md: 12px;
+  --blur-lg: 16px;
+  --blur-xl: 24px;
+
+  --default-transition-duration: 0.15s;
+  --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+:root {
+  --border-radius: 1.25rem;
+  --radius-full: 3.40282e38px;
+  --shadow-xs: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 10%), 0 8px 10px -6px rgb(0 0 0 / 10%);
+  --shadow-product: 0 0 0.09375rem 0 rgb(var(--color-black) / 25%);
+  --product-card-width: 12.333rem;
+  --gradient-page:
+    linear-gradient(180deg, #fff 0%, rgb(255 255 255 / 0%) 100%),
+    linear-gradient(90deg, #fff2fc 0%, #ffe6f0 33.95%, #fef6ff 67.99%, #f4f4ff 100%);
+}
+
+:root {
+  --font: 'Inter', system-ui, sans-serif;
+  --color-text-on-brand: var(--color-text-primary-invert);
+}
+
+:root {
+  --gradient-option: linear-gradient(to right in oklab, rgb(84 141 255 / 10%), rgb(196 125 255 / 10%));
+  --gradient-option-disabled: linear-gradient(to right in oklab, rgb(84 141 255 / 8%), rgb(196 125 255 / 8%));
+  --gradient-portrait: linear-gradient(to right in oklab, #e1ebff, #f8f2ff);
+  --gradient-portrait-hover: linear-gradient(to right in oklab, #c2d6ff, #f5eeff);
+  --gradient-avatar: url('/skin-chat/avatar.png') center / cover;
+}
+
+.phone {
+  --color-primary: var(--color-brand);
+  --gradient-option: linear-gradient(to right in oklab, rgb(var(--color-brand) / 10%), rgb(var(--color-brand) / 4%));
+  --gradient-option-disabled: linear-gradient(to right in oklab, rgb(var(--color-brand) / 8%), rgb(var(--color-brand) / 3%));
+  --gradient-portrait: linear-gradient(
+    to right in oklab,
+    color-mix(in srgb, rgb(var(--color-brand)) 18%, rgb(var(--color-white))),
+    color-mix(in srgb, rgb(var(--color-brand)) 6%, rgb(var(--color-white)))
+  );
+  --gradient-portrait-hover: linear-gradient(
+    to right in oklab,
+    color-mix(in srgb, rgb(var(--color-brand)) 36%, rgb(var(--color-white))),
+    color-mix(in srgb, rgb(var(--color-brand)) 12%, rgb(var(--color-white)))
+  );
+  --gradient-logo: linear-gradient(
+    120deg,
+    rgb(var(--color-brand)),
+    color-mix(in srgb, rgb(var(--color-brand)) 70%, rgb(var(--color-white)))
+  );
+  --gradient-avatar: radial-gradient(
+    circle at 32% 28%,
+    color-mix(in srgb, rgb(var(--color-brand)) 25%, rgb(var(--color-white))),
+    color-mix(in srgb, rgb(var(--color-brand)) 70%, rgb(var(--color-white))) 55%,
+    rgb(var(--color-brand))
+  );
+}
+
+.scene {
+  --gradient-page:
+    linear-gradient(180deg, #fff 0%, rgb(255 255 255 / 0%) 100%),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, rgb(var(--color-brand)) 6%, rgb(var(--color-white))) 0%,
+      color-mix(in srgb, rgb(var(--color-brand)) 12%, rgb(var(--color-white))) 33.95%,
+      color-mix(in srgb, rgb(var(--color-brand)) 4%, rgb(var(--color-white))) 67.99%,
+      color-mix(in srgb, rgb(var(--color-brand)) 8%, rgb(var(--color-white))) 100%
+    );
+}
+
+:root {
+  --proto: #1f2125;
+  --proto-line: rgb(31 33 37 / 0.14);
+  --proto-bg: #ececea;
+  --proto-font: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
